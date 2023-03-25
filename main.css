@@ -1,0 +1,87 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+
+div.attopdark
+{
+    /* border-style:solid; 
+    border-color:dimgray;
+    border-width:5px; */
+    background-color: rgb(0, 0, 0);
+    animation: divlighttodark 1s;
+    position: sticky;
+    /* line-height: 0px; */
+    top: 0px;
+    margin: 0px;
+    height: 100px;
+}
+
+button.tolight {
+    background-color: #ffffff; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+p.attopdark
+{
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu;
+    text-align: center;
+    font-weight: 700;
+    /* height: 100px; */
+    font-size: 50px;
+}
+div.attoplight
+{
+    /* border-style:solid; 
+    border-color:dimgray;
+    border-width:5px; */
+    background-color: rgb(255, 255, 255);
+    animation: divdarktolight 1s;
+    position: sticky;
+    /* line-height: 0px; */
+    top: 0px;
+    margin: 0px;
+    height: 100px;
+}
+
+p.attoplight
+{
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: Ubuntu;
+    text-align: center;
+    font-weight: 700;
+    /* height: 100px; */
+    font-size: 50px;
+}
+
+button.todark {
+    background-color: #000000; 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+@keyframes divlighttodark
+{
+    0%{background-color: #ffffff;}
+    100%{background-color: #000000;}
+}
+
+@keyframes divdarktolight
+{
+    0%{background-color: #000000;}
+    100%{background-color: #ffffff;}
+}

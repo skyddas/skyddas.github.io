@@ -1,8 +1,72 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <title>My Own Website</title>
+    <meta charset="utf-8"> 
+    <title>website</title> 
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="font.css">
+    <script>
+      function changetheme(){
+       if (document.getElementById("changebutton").className=="tolight"){
+        document.getElementById("changebutton").className="todark";
+        document.getElementById("divattop").className="attoplight";
+        document.getElementById("pattop").className="attoplight" ;
+      }else{
+        document.getElementById("changebutton").className="tolight";
+        document.getElementById("divattop").className="attopdark";
+        document.getElementById("pattop").className="attopdark";
+      }
+    }
+    </script>
   </head>
   <body>
-    text
-  </body>
+    <div class="attopdark" id="divattop">
+      <div style="width: 70%;left: 0px;position: absolute;padding: 22px;">
+        <p class="attopdark" id="pattop">Sample Text</p>
+      </div>
+      <div style="width: 30%;left: 70%;position: absolute;padding: 27px;text-align: center;">
+        <button class="tolight" onclick="changetheme()" id="changebutton">Text</button>
+      </div>
+    </div>
+    <div></div>
+    <pre style="font-family:Ubuntu">      sample text
+      sample text
+      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      <b>text</b>
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text      sample text
+      sample text
+    </pre>
+  
+</body>
 </html>
